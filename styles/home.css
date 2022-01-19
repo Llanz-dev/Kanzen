@@ -1,0 +1,491 @@
+html {
+  height: 50%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #dfe2e8;
+  font-family: "Open Sans", sans-serif;
+}
+
+.alert-message {
+  background-color: #cfead7;
+  padding: 0.5rem 0.5rem 0.5rem 3rem;
+  font-weight: 500;
+  color: #112016;
+}
+
+.whole {
+  border: 2px solid white;
+  border-radius: 3rem;
+  margin: 0.5rem 0;
+}
+
+.m-top {
+  margin-top: 1rem;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.light-text {
+  color: #6b6b6b;
+}
+
+.thin {
+  font-weight: 100;
+}
+
+.whole-inner {
+  margin: 1rem;
+  border-radius: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  height: 38rem;
+  background-color: white;
+}
+
+.whole-inner .left {
+  padding: 1rem 0;
+  width: 12%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.whole-inner .left p {
+  font-size: 13px;
+}
+
+.whole-inner .left .left-inner {
+  margin: 1rem;
+}
+
+.whole-inner .left nav {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.whole-inner .left nav div {
+  margin: 1.5rem auto 0 auto;
+  border-radius: 1rem;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  padding: 10px;
+  background-color: #fe2352;
+  color: white;
+  cursor: pointer;
+}
+
+.whole-inner .left nav div .mini-icon {
+  width: 1.5rem;
+  margin: 1rem 0 0.5rem 0;
+}
+
+.whole-inner .left nav div i {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.whole-inner .left nav div:active {
+  background-color: #e71543;
+}
+
+.whole-inner .left .official-icon {
+  background-color: #be0029;
+  padding: 10px;
+  border-radius: 3rem;
+  color: white;
+  font-family: cursive;
+  margin-bottom: 2rem;
+  font-weight: 100;
+  margin-bottom: 3rem;
+  font-size: 2rem;
+}
+
+.m-top {
+  text-transform: capitalize;
+}
+
+.middle {
+  -webkit-box-flex: 5;
+      -ms-flex: 5;
+          flex: 5;
+  background-color: #f1f1f1;
+  padding: 1rem;
+}
+
+.middle p {
+  font-size: 15px;
+}
+
+.middle .middle-inner {
+  margin: 1rem;
+}
+
+.middle .middle-inner .top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.middle .middle-inner .top .search-div {
+  color: #dedfe2;
+  outline: none;
+  background-color: white;
+  padding: 0.5rem;
+  border-radius: 1rem;
+}
+
+.middle .middle-inner .top .search-div i {
+  color: #5f5f5f;
+}
+
+.middle .middle-inner .top .search-div input {
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  margin-left: 0.2rem;
+}
+
+.middle .middle-inner .top .search-div input:hover {
+  border-bottom: 1px solid #5f5f5f;
+}
+
+.middle .middle-inner .different-variety {
+  margin: 3rem 0 1rem 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.middle .middle-inner .different-variety div {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: white;
+  border-radius: 0.9rem;
+  margin: 0.2rem 0.5rem;
+  padding: 0.3rem 0.5rem 1rem 0.5rem;
+  border: 1px solid #d6d8db;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.middle .middle-inner .different-variety div:hover {
+  background-color: #ffda6e;
+}
+
+.middle .middle-inner .different-variety div:active {
+  background-color: #ffd557;
+}
+
+.middle .middle-inner .different-variety div i {
+  padding: 1rem;
+  background-color: white;
+  border-radius: 0.8rem;
+  border: 1px solid #d6d8db;
+  margin-bottom: 0.3rem;
+}
+
+.middle .middle-inner .different-variety .img-ic img {
+  border-radius: 0.8rem;
+  background-color: white;
+  border: 1px solid #d6d8db;
+  margin-bottom: 0.3rem;
+  padding: 0.9rem;
+  width: 50px;
+}
+
+.middle .middle-inner .choose-order {
+  margin-top: 2rem;
+}
+
+.middle .middle-inner .choose-order #section-snack {
+  display: none;
+}
+
+.middle .middle-inner .choose-order #section-tea {
+  display: none;
+}
+
+.middle .middle-inner .choose-order #section-pizza {
+  display: none;
+}
+
+.middle .middle-inner .choose-order #section-noodle {
+  display: none;
+}
+
+.middle .middle-inner .choose-order #section-seafood {
+  display: none;
+}
+
+.middle .middle-inner .choose-order .chosen-category {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.middle .middle-inner .choose-order .card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: white;
+  padding: 1rem;
+  border: 1px solid #f1f1f1;
+  border-radius: 2rem;
+}
+
+.middle .middle-inner .choose-order .card button {
+  margin-top: 0.5rem;
+  padding: 0.4rem 0.8rem;
+  border: 1px solid #dadcde;
+  border-radius: 0.5rem;
+  border: 1px solid #d6d8db;
+  -webkit-transition: 0.1s ease-in;
+  transition: 0.1s ease-in;
+  background-color: white;
+  cursor: pointer;
+}
+
+.middle .middle-inner .choose-order .card button:hover {
+  background-color: #ffda6e;
+}
+
+.middle .middle-inner .choose-order .card button:active {
+  background-color: #facf4d;
+}
+
+.middle .middle-inner .choose-order img {
+  width: 140px;
+  height: 120px;
+}
+
+.right {
+  -webkit-box-flex: 2;
+      -ms-flex: 2;
+          flex: 2;
+  padding: 1rem;
+}
+
+.right .right-inner {
+  margin: 1rem;
+}
+
+.right .right-inner .right-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.right .right-inner .right-top i {
+  cursor: pointer;
+  font-size: 17px;
+}
+
+.right .right-inner .right-content {
+  margin-top: 3.7rem;
+}
+
+.right .right-inner .right-content #right-content {
+  height: 18.5rem;
+  overflow: auto;
+  /* width */
+  /* Track */
+  /* Handle */
+  /* Handle on hover */
+}
+
+.right .right-inner .right-content #right-content ::-webkit-scrollbar {
+  width: 10px;
+}
+
+.right .right-inner .right-content #right-content ::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.right .right-inner .right-content #right-content ::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+.right .right-inner .right-content #right-content ::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.right .right-inner .right-content .each_item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  text-align: center;
+  padding: 0.5rem;
+  border-radius: 1rem;
+  border: 1px solid #d6d8db;
+  margin-top: 1rem;
+}
+
+.right .right-inner .right-content .delete-ic {
+  color: red;
+  border-radius: 100px;
+  cursor: pointer;
+}
+
+.right .right-inner .right-content .delete-ic:hover {
+  background-color: #ffdada;
+}
+
+.right .right-inner .right-content p {
+  font-size: 0.8rem;
+}
+
+.right .right-inner .right-content img {
+  margin-right: 0.8rem;
+  width: 70px;
+  height: 60px;
+}
+
+.sub-total {
+  margin-top: 1rem;
+}
+
+.sub-total div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.sub-total div p {
+  font-size: 1rem;
+}
+
+.btn-div {
+  text-align: center;
+}
+
+.btn-div button {
+  margin-top: 3rem;
+  border: none;
+  color: white;
+}
+
+.btn-div button a {
+  background-color: #fe2352;
+  color: white;
+  border-radius: 0.5rem;
+  padding: 0.7rem 2rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.btn-div button a:active {
+  background-color: #e71543;
+}
+
+.btn-div button .charge {
+  color: #eeeeee;
+}
+
+.show {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.hide {
+  display: none;
+}
+/*# sourceMappingURL=home.css.map */

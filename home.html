@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <!-- Icon logo -->
+        <link rel="icon" href="pictures/kanzen_logo.jpg">
+
+        <!-- Google fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap" rel="stylesheet" />
+
+        <!-- Link FontAwesome -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+            integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+
+        <!-- Bootstrap icons -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
+
+        <!-- My CSS -->
+        <link rel="stylesheet" href="styles/home.css" />
+        <title>Kanzen</title>
+    </head>
+
+    <body>
+        <div class="whole">
+            <div class="whole-inner">
+                <!-- Left column -->
+                <div class="left">
+                    <div class="left-inner">
+                        <h1 class="official-icon">Kanzen</h1>
+                        <nav>
+                            <a href="#">
+                                <div id="home-btn" class="bubbly-button">
+                                    <i class="fas fa-home"></i>
+                                    <p>Home</p>
+                                </div>
+                            </a>
+                            <a href="#">
+                                <div id="user-btn" class="bubbly-button">
+                                    <i class="fas fa-user"></i>
+                                    <p>Profile</p>
+                                </div>
+                            </a>
+                            <a href="#">
+                                <div id="about-btn" class="bubbly-button">
+                                    <i class="fas fa-address-card"></i>
+                                    <p>About</p>
+                                </div>
+                            </a>
+                            <a href="#">
+                                <div id="signout-btn" class="bubbly-button">
+                                    <i class="fas fa-sign-out-alt"></i>
+                                    <p>Log Out</p>
+                                </div>
+                            </a>
+                        </nav>
+                    </div>
+                </div>
+                <!-- Middle column -->
+                <div class="middle">
+                    <div class="middle-inner">
+                        <div class="top">
+                            <div>
+                                <h1>Menu <span class="thin">Category</span></h1>
+                            </div>
+                            <div class="search-div">
+                                <i class="fas fa-search"></i>
+                                <input type="text" name="" id="" />
+                            </div>
+                        </div>
+                        <div class="different-variety">
+                            <a href="#" id="all-btn">
+                                <div class="bubbly-button">
+                                    <i class="fas fa-fire"></i>
+                                    <p>All</p>
+                                </div>
+                            </a>
+                            <a href="#" id="snack-btn">
+                                <div class="bubbly-button">
+                                    <i class="fas fa-cookie"></i>
+                                    <p>Snack</p>
+                                </div>
+                            </a>
+                            <a href="#" id="tea-btn">
+                                <div>
+                                    <i class="fas fa-mug-hot"></i>
+                                    <p>Tea</p>
+                                </div>
+                            </a>
+                            <a href="#" id="pizza-btn">
+                                <div>
+                                    <i class="fas fa-pizza-slice"></i>
+                                    <p>Pizza</p>
+                                </div>
+                            </a>
+                            <a href="#" id="noodle-btn">
+                                <div class="img-ic">
+                                    <img src="pictures/noodles.png" alt="noodle-icon" />
+                                    <p>Noodles</p>
+                                </div>
+                            </a>
+                            <a href="#" id="seafood-btn">
+                                <div>
+                                    <i class="fas fa-fish"></i>
+                                    <p>Seafood</p>
+                                </div>
+                            </a>
+                        </div>
+                        <h2>Choose <span class="thin">Order</span></h2>
+                        <div class="choose-order">
+                            <section class="chosen-category" id="section-all">
+                                <div>
+                                    <div class="card">
+                                        <img class='product-image' src="pictures/pocky.jpg" alt="" />
+                                        <p class="m-top"><b class="name-item">Pocky</b></p>
+                                        <p class="light-text">₱<span class="price" id="price1">99</span></p>
+                                        <button class='cart-button' id="1">
+                                            Add <i class="fas fa-shopping-cart"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="card">
+                                        <img class='product-image' src="pictures/getty-hotate.jpg" alt="" />
+                                        <p class="m-top"><b class="name-item">Hotate</b></p>
+                                        <p class="light-text">₱<span class="price" id="price2">1,300</span></p>
+                                        <button class='cart-button' id="2">
+                                            Add <i class="fas fa-shopping-cart"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="card">
+                                        <img class='product-image' src="pictures/yakisoba.jpg" alt="" />
+                                        <p class="m-top"><b class="name-item">Yakisoba</b></p>
+                                        <p class="light-text">₱<span class="price" id="price3">220</span></p>
+                                        <button class='cart-button' id="3">
+                                            Add <i class="fas fa-shopping-cart"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="card">
+                                        <img class='product-image' src="pictures/matcha.jpg" alt="" />
+                                        <p class="m-top"><b class="name-item">Matcha</b></p>
+                                        <p class="light-text">₱<span class="price" id="price4">599</span></p>
+                                        <button class='cart-button' id="4">
+                                            Add <i class="fas fa-shopping-cart"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </section>
+                            <section class="chosen-category" id="section-snack">
+                                <div>
+                                    <div class="card">
+                                        <img class='product-image' src="pictures/pocky.jpg" alt="" />
+                                        <p class="m-top"><b class="name-item">Pocky</b></p>
+                                        <p class="light-text">₱<span class="price" id="price5">99</span></p>
+                                        <button class='cart-button' id="1">
+                                            Add <i class="fas fa-shopping-cart"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="card">
+                                        <img class='product-image' src="pictures/arare.jpg" alt="" />
+                                        <p class="m-top"><b class="name-item">Arare</b></p>
+                                        <p class="light-text">₱<span class="price" id="price6">259</span></p>
+                                        <button class='cart-button' id="6">
+                                            Add <i class="fas fa-shopping-cart"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="card">
+                                        <img class='product-image' src="pictures/kaki.jpg" alt="" />
+                                        <p class="m-top"><b class="name-item">Kaki no tane</b></p>
+                                        <p class="light-text">₱<span class="price" id="price7">299</span></p>
+                                        <button class='cart-button' id="7">
+                                            Add <i class="fas fa-shopping-cart"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="card">
+                                        <img class='product-image' src="pictures/mochi.jpg" alt="" />
+                                        <p class="m-top"><b class="name-item">Mochi</b></p>
+                                        <p class="light-text">₱<span class="price" id="price8">559</span></p>
+                                        <button class='cart-button' id="8">
+                                            Add <i class="fas fa-shopping-cart"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </section>
+                            <section class="chosen-category" id="section-tea">
+                                <div>
+                                    <div class="card">
+                                        <img class='product-image' src="pictures/sencha.jpg" alt="" />
+                                        <p class="m-top"><b class="name-item">Sencha</b></p>
+                                        <p class="light-text">₱<span class="price" id="price9">1,600</span></p>
+                                        <button class='cart-button' id="9">
+                                            Add <i class="fas fa-shopping-cart"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="card">
+                                        <img class='product-image' src="pictures/gyokuro.jpg" alt="" />
+                                        <p class="m-top"><b class="name-item">Gyokuro</b></p>
+                                        <p class="light-text">₱<span class="price" id="price10">700</span></p>
+                                        <button class='cart-button' id="10">
+                                            Add <i class="fas fa-shopping-cart"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="card">
+                                        <img class='product-image' src="pictures/bancha.jpg" alt="" />
+                                        <p class="m-top"><b class="name-item">Bancha</b></p>
+                                        <p class="light-text">₱<span class="price" id="price11">650</span></p>
+                                        <button class='cart-button' id="11">
+                                            Add <i class="fas fa-shopping-cart"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="card">
+                                        <img class='product-image' src="pictures/matcha.jpg" alt="" />
+                                        <p class="m-top"><b class="name-item">Matcha</b></p>
+                                        <p class="light-text">₱<span class="price" id="price12">599</span></p>
+                                        <button class='cart-button' id="4">
+                                            Add <i class="fas fa-shopping-cart"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </section>
+                            <section class="chosen-category" id="section-pizza">
+                                <div>
+                                    <div class="card">
+                                        <img class='product-image' src="pictures/miso.jpg" alt="" />
+                                        <p class="m-top"><b class="name-item">Miso</b></p>
+                                        <p class="light-text">₱<span class="price" id="price13">1,599</span></p>
+                                        <button class='cart-button' id="13">
+                                            Add <i class="fas fa-shopping-cart"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="card">
+                                        <img class='product-image' src="pictures/mentaiko.jpg" alt="" />
+                                        <p class="m-top"><b class="name-item">Mentaiko</b></p>
+                                        <p class="light-text">₱<span class="price" id="price14">1,500</span></p>
+                                        <button class='cart-button' id="14">
+                                            Add <i class="fas fa-shopping-cart"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="card">
+                                        <img class='product-image' src="pictures/yakiniku.jpg" alt="" />
+                                        <p class="m-top"><b class="name-item">Yakiniku</b></p>
+                                        <p class="light-text">₱<span class="price" id="price15">1,600</span></p>
+                                        <button class='cart-button' id="15">
+                                            Add <i class="fas fa-shopping-cart"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="card">
+                                        <img class='product-image' src="pictures/shirasu.jpg" alt="" />
+                                        <p class="m-top"><b class="name-item">Shirasu</b></p>
+                                        <p class="light-text">₱<span class="price" id="price16">1,799</span></p>
+                                        <button class='cart-button' id="16">
+                                            Add <i class="fas fa-shopping-cart"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </section>
+                            <section class="chosen-category" id="section-noodle">
+                                <div>
+                                    <div class="card">
+                                        <img class='product-image' src="pictures/ramen.jpg" alt="" />
+                                        <p class="m-top"><b class="name-item">Ramen</b></p>
+                                        <p class="light-text">₱<span class="price" id="price17">250</span></p>
+                                        <button class='cart-button' id="17">
+                                            Add <i class="fas fa-shopping-cart"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="card">
+                                        <img class='product-image' src="pictures/udon.jpg" alt="" />
+                                        <p class="m-top"><b class="name-item">Udon</b></p>
+                                        <p class="light-text">₱<span class="price" id="price18">300</span></p>
+                                        <button class='cart-button' id="18">
+                                            Add <i class="fas fa-shopping-cart"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="card">
+                                        <img class='product-image' src="pictures/yakisoba.jpg" alt="" />
+                                        <p class="m-top"><b class="name-item">Yakisoba</b></p>
+                                        <p class="light-text">₱<span class="price" id="price19">220</span></p>
+                                        <button class='cart-button' id="3">
+                                            Add <i class="fas fa-shopping-cart"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="card">
+                                        <img class='product-image' src="pictures/harusame.jpg" alt="" />
+                                        <p class="m-top"><b class="name-item">Harusame</b></p>
+                                        <p class="light-text">₱<span class="price" id="price20">200</span></p>
+                                        <button class='cart-button' id="20">
+                                            Add <i class="fas fa-shopping-cart"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </section>
+                            <section class="chosen-category" id="section-seafood">
+                                <div>
+                                    <div class="card">
+                                        <img class='product-image' src="pictures/unagi.jpg" alt="" />
+                                        <p class="m-top"><b class="name-item">Unagi</b></p>
+                                        <p class="light-text">₱<span class="price" id="price20">1,200</span></p>
+                                        <button class='cart-button' id="21">
+                                            Add <i class="fas fa-shopping-cart"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="card">
+                                        <img class='product-image' src="pictures/getty-hotate.jpg" alt="" />
+                                        <p class="m-top"><b class="name-item">Hotate</b></p>
+                                        <p class="light-text">₱<span class="price" id="price22">1,300</span></p>
+                                        <button class='cart-button' id="2">
+                                            Add <i class="fas fa-shopping-cart"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="card">
+                                        <img class='product-image' src="pictures/fugu.jpg" alt="" />
+                                        <p class="m-top"><b class="name-item">Fugu</b></p>
+                                        <p class="light-text">₱<span class="price" id="price23">1,999</span></p>
+                                        <button class='cart-button' id="23">
+                                            Add <i class="fas fa-shopping-cart"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="card">
+                                        <img class='product-image' src="pictures/ikura.jpg" alt="" />
+                                        <p class="m-top"><b class="name-item">Ikura</b></p>
+                                        <p class="light-text">₱<span class="price" id="price24">1,499</span></p>
+                                        <button class='cart-button' id="24">
+                                            Add <i class="fas fa-shopping-cart"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                    </div>
+                </div>
+                <!-- Right column -->
+                <div class="right">
+                    <div class="right-inner">
+                        <div class="right-top">
+                            <h2>Order <span class="thin">Menu</span></h2>
+                        </div>
+                        <div class="right-content">
+                            <p style="margin-bottom: .3rem;">Items: <b id="items-count">0</b></p>
+                            <div id="right-content">
+                                <!-- Here goes the list -->
+                            </div>
+                        </div>
+                        <div class="sub-total">
+                            <div>
+                                <p class="light-text">Sub Total</p>
+                                <p>
+                                    <b>₱<span id="sub-total">00</span></b>
+                                </p>
+                            </div>
+                            <div>
+                                <p class="light-text">Tax(12%)</p>
+                                <p>
+                                    <b>₱<span id="tax-total">00</span></b>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="btn-div">
+                            <button id="charge-button"><a href="payment_method.html" id="link-receipt">
+                                    Charge ₱<span id="charge-total" class="charge">00</span>
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="js/home.js"></script>
+    </body>
+
+</html>
