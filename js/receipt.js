@@ -86,11 +86,12 @@ document.getElementById("current-date").textContent =
   " " + month + " " + d.getDate() + ", " + d.getFullYear();
 
 
+const customer_name = document.getElementById('customer_name')
 const street_address = document.getElementById('street_address')
 const city = document.getElementById('city')
 const state = document.getElementById('state')
 const zip_code = document.getElementById('zip_code')
-
+customer_name.textContent = localStorage.getItem('customer-name-value')
 street_address.textContent = localStorage.getItem('street-address-item')
 city.textContent = localStorage.getItem('city-item')
 state.textContent = localStorage.getItem('state-item')
