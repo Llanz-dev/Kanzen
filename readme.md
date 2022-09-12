@@ -25,10 +25,10 @@ Just clone this and open the **home.html**.
 
 ## Badges
 ![open source](https://img.shields.io/badge/Open%20Source-%F0%9F%92%9A-white)
-![GitHub contributors](https://img.shields.io/github/contributors/Llanz-dev/kanzen)
-![down](https://img.shields.io/github/downloads/Llanz-dev/kanzen/total)
+![GitHub contributors](https://img.shields.io/github/contributors/Llanz-dev/Kanzen)
+![down](https://img.shields.io/github/downloads/Llanz-dev/Kanzen/total)
 ![Django](https://img.shields.io/badge/django-4.1.1-brightgreen)
-![forks](https://img.shields.io/github/last-commit/Llanz-dev/kanzen)
+![forks](https://img.shields.io/github/last-commit/Llanz-dev/Kanzen)
 ![followers](https://img.shields.io/github/followers/Llanz-dev?style=social)
 ![stars](https://img.shields.io/github/stars/Llanz-dev?style=social)
-![forks](https://img.shields.io/github/forks/Llanz-dev/kanzen?style=social)
+![forks](https://img.shields.io/github/forks/Llanz-dev/Kanzen?style=social)
