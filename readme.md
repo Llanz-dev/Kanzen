@@ -27,7 +27,6 @@ Just clone this and open the **home.html**.
 ![open source](https://img.shields.io/badge/Open%20Source-%F0%9F%92%9A-white)
 ![GitHub contributors](https://img.shields.io/github/contributors/Llanz-dev/Kanzen)
 ![down](https://img.shields.io/github/downloads/Llanz-dev/Kanzen/total)
-![Django](https://img.shields.io/badge/django-4.1.1-brightgreen)
 ![forks](https://img.shields.io/github/last-commit/Llanz-dev/Kanzen)
 ![followers](https://img.shields.io/github/followers/Llanz-dev?style=social)
 ![stars](https://img.shields.io/github/stars/Llanz-dev?style=social)
