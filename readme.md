@@ -4,7 +4,11 @@
 Kanzen is a static site where you can choose your favorite Japanese food.
 
 - You can choose whatever Japanese food you like to order and it has a variety of different types of food. Then it will automatically calculate the price, tax and the total amount.
-- I use HTML, CSS and JavaScript to make this project. This saves the data in local storage.  I hope to make this responsive.
+
+## How to Run the Project
+- HTML
+- CSS
+- JavaScript
 
 ## How to Run the Project
 Just clone this and open the **home.html**.
