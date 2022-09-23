@@ -8,7 +8,7 @@ Kanzen is a static site where you can choose your favorite Japanese food.
 ## Built With
 - HTML
 - CSS
-- JavaScript
+- Vanilla JavaScript
 
 ## How to Run the Project
 Just clone this and open the **home.html**.
@@ -26,6 +26,9 @@ Just clone this and open the **home.html**.
 ![none](screenshots/6.png?raw=true)
 #### The data that you fill up earlier is now on your receipt. It calculates all your expenses and you could also print this.
 ![none](screenshots/5.png?raw=true)
+
+## Acknowledgment
+#### My design inspired by [Happy Tri Milliarta](https://www.pinterest.co.kr/pin/772085929875777303/?nic_v3=1aym3By77) 
 
 ## Badges
 ![open source](https://img.shields.io/badge/Open%20Source-%F0%9F%92%9A-white)
